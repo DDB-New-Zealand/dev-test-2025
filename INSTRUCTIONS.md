@@ -1,6 +1,6 @@
-# Frontend Developer Technical Test
+# Senior Frontend Developer Technical Test
 
-This task is designed to evaluate your skills in **React**, **Next.js**, **Typescript**, **TailwindCSS**, and **animation libraries** such as **GSAP** or **Framer Motion**. You will build a small application that fetches data from a public API and presents it with engaging animations and a responsive UI.
+This task evaluates your skills in **React**, **Next.js**, **Typescript**, **TailwindCSS**, and **animation libraries** like **GSAP** or **Framer Motion**. Build a small application that fetches data from a public API and presents it with engaging animations and a responsive UI.
 
 ## Project Requirements
 
@@ -10,20 +10,37 @@ This task is designed to evaluate your skills in **React**, **Next.js**, **Types
 - **TailwindCSS** for styling
 - **GSAP** or **Framer Motion** for animations
 
-### Features to Implement:
+### Features:
 1. Fetch data from a public API (e.g., [Free Test API](https://freetestapi.com/apis)).
-2. Display a list of fetched data on the home page in a structured and user-friendly way.
-3. Add filtering or searching functionality to allow users to refine the list based on a specific criterion.
-4. Provide a detail page for each item in the list (using Next.js dynamic routes). On this page, fetch and display additional data related to the item.
-
+2. Display a structured, user-friendly list of fetched data on the home page.
+3. Implement filtering or search functionality for refining the list.
+4. Create a detail page for each item (using Next.js dynamic routes) and display additional data.
 
 ### Extra Points:
-- Implement loading states for the API calls (e.g., spinners or skeleton loaders).
-- Implement up to two different types of animations using **GSAP** or **Framer Motion** (e.g., on element appearance, interaction, or transitions).
-- Deploy the application (e.g., using **Vercel**) and provide a link.
+- Implement loading states (e.g., spinners or skeleton loaders).
+- Add up to two types of animations (e.g., element appearance, interaction, transitions).
+- Deploy the application (e.g., using **Vercel**) and provide a live link.
 
 ## Getting Started
 
-To get started, fork this repository and clone it to your local environment. Make sure you have **Node.js** installed, and then install the dependencies as you need.
+Fork and clone this repository locally. Install dependencies with **Node.js**. Refer to [Next.js documentation](https://nextjs.org/docs) or the README.md for setup details.
 
-Refer to the [Next.js documentation](https://nextjs.org/docs) for more information on how to work with Next.js or the README.md file for the project setup.
+---
+
+### Advanced Features:
+
+1. **Data Fetching & Optimization:**
+    - Implement error handling and user feedback for failed API calls (e.g., retry options).
+
+2. **State Management:**
+    - Use Redux or Zustand for global state management. Persist state to `localStorage`.
+
+3. **Advanced Filtering & Search:**
+    - Implement multi-criteria filtering, sorting, and search with debouncing to optimize performance.
+
+4. **Animations:**
+    - Ensure advanced, performant animations without impacting responsiveness.
+
+5. **Code Quality:**
+    - Enforce code consistency using ESLint and Prettier.
+    - Add comprehensive tests where appropriate.
